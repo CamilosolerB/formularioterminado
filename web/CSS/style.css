@@ -1,0 +1,50 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 11/02/2022, 1:07:14 p. m.
+    Author     : SENA
+*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+h1{
+    padding-top: 5%;
+}
+body{
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+.title{
+    text-align: center; 
+    font-family: 'Montserrat', sans-serif;
+}
+.barra{
+    background-color: #222;
+    height: 150px;
+    color: #fff;
+}
+.progress{
+    background-color: #fff;
+    width: 30%;
+}
+.container{
+    background-color: #97EEC0;
+    margin: 5%;
+    border-radius: 10px;
+}
+.container input{
+    width: 10%;
+    padding-bottom: 5%;
+}
+.container label{
+    width: 80%;
+    padding-bottom: 5%;
+}
+h3{
+    padding: 2%;
+    font-family: 'Montserrat', sans-serif;
+}
+.valorpunt{
+    font-family: 'Montserrat', sans-serif;
+    float: right;
+}
