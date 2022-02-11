@@ -58,7 +58,6 @@
                             puntaje++;
                         }
                         String valor2 = request.getParameter("respuesta2");
-                        //System.out.println(valor);
                         if(valor2.equalsIgnoreCase("non fungible token")){
                             JOptionPane.showMessageDialog(null, "Respuesta 2 correcta");
                             puntaje++;
@@ -68,7 +67,7 @@
                                 JOptionPane.showMessageDialog(null, "Respuesta 3 correcta");
                                 puntaje++;
                             }
-                        desaciertos=puntaje-3;
+                        desaciertos=3-puntaje;
                         sesion.setAttribute("aciertos", puntaje);
                         sesion.setAttribute("desaciertos", desaciertos);
                         response.sendRedirect("pagina2.jsp");

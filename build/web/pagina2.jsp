@@ -76,7 +76,8 @@
                                 JOptionPane.showMessageDialog(null, "Respuesta 3 correcta");
                                 puntaje++;
                             }
-                        desaciertos=puntaje-3+fallas;
+                        desaciertos=6-puntaje;
+                        System.out.println(desaciertos);
                         sesion.setAttribute("aciertos", puntaje);
                         sesion.setAttribute("desaciertos", desaciertos);
                         response.sendRedirect("pagina3.jsp");

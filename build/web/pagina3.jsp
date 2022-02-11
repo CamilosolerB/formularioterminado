@@ -66,7 +66,6 @@
                             puntaje++;
                         }
                         String valor2 = request.getParameter("respuesta2");
-                        //System.out.println(valor);
                         if(valor2.equalsIgnoreCase("Digimon")){
                             JOptionPane.showMessageDialog(null, "Respuesta 2 correcta");
                             puntaje++;
@@ -76,7 +75,7 @@
                                 JOptionPane.showMessageDialog(null, "Respuesta 3 correcta");
                                 puntaje++;
                             }
-                        desaciertos=puntaje-3+fallas;
+                        desaciertos=9-puntaje;
                         sesion.setAttribute("aciertos", puntaje);
                         sesion.setAttribute("desaciertos", desaciertos);
                         response.sendRedirect("respuesta.jsp");
